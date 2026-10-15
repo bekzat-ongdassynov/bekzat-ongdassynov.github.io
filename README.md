@@ -5,14 +5,14 @@ Personal site — static, no build step. Served by GitHub Pages from the reposit
 ```
 index.html    markup and content
 styles.css    design tokens, layout, components
-script.js     scroll spy, theme toggle, mobile nav, reveal animations
-assets/       images
+script.js     scroll spy and mobile navigation
+pfp.jpg       portrait
 ```
 
 ## Profile picture
 
-Drop a square image at `assets/profile.jpg`. Until one exists, the avatar falls back
-to an initials monogram, so the page never shows a broken image.
+The portrait is `pfp.jpg` in the repository root. If it fails to load, the frame
+falls back to an initials monogram.
 
 ## Local preview
 
